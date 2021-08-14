@@ -9413,3 +9413,121 @@ Binding(COMMAND+SHIFT+C,
 
 !ENTRY Activator 1 0 2021-08-13 17:17:26.726
 !MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-13 17:19:20.801
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-13 17:19:20.936
+!MESSAGE Has main method computation for project 'RUN_WAY'
+!SESSION 2021-08-14 09:34:18.538 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/hg/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/hg/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-08-14 09:34:25.448
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-14 09:34:25.448
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75ac326f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@736f8837,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY Activator 1 0 2021-08-14 09:34:32.992
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 09:34:37.664
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 09:34:40.992
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:02.738
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:02.742
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@59845e8b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=552)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:02.745
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:02.815
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.075
+!MESSAGE Boot LS startup time from start to initialized: 2318ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.154
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.khEKsBuIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.156
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.157
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.160
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.161
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.khEKsBuI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.163
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.175
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.176
+!MESSAGE buffering callback sts4.classpath.khEKsBuI RUN_WAY false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.177
+!MESSAGE executing callback sts4.classpath.khEKsBuI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 14:35:05.591
+!MESSAGE executing callback sts4.classpath.khEKsBuI SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-14 14:35:20.227
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 14:35:21.451
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 14:36:06.299
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 14:36:06.937
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 14:36:19.602
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 14:36:20.204
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 14:36:29.193
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 14:36:29.837
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 14:36:47.399
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-14 14:36:48.275
+!MESSAGE Has main method computation for project 'RUN_WAY'
