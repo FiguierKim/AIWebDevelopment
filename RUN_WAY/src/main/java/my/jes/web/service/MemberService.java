@@ -16,9 +16,6 @@ public class MemberService {
 		memberDAO.memberInsert(m);
 	}
 
-//	public String login(MemberVO m) {		
-//		return memberDAO.login(m);
-//	}
 	public MemberVO login(MemberVO m) {
 		System.out.println(memberDAO.login(m));
 		return memberDAO.login(m);

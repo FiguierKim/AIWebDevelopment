@@ -16,13 +16,6 @@
 		<result property="gender" column="gender" />
 	</resultMap>
 	
-	<resultMap type="memberVO" id="calInfo">
-		<result property="age" column="age" />
-		<result property="weight" column="weight" />
-		<result property="height" column="height" />
-		<result property="gender" column="gender" />
-	</resultMap>
-
 	<select id="selectAllMemberList" resultMap="memResult">
 		<![CDATA[
 			select * from user_db 

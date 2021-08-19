@@ -17,6 +17,7 @@
 		<item value="org.eclipse.jgit.ssh.apache:5.12.0.202106070339-r"/>
 		<item value="org.eclipse.jgit:5.12.0.202106070339-r"/>
 		<item value="org.eclipse.jst.common.fproj.enablement.jdt:3.22.0.v202103232321"/>
+		<item value="org.eclipse.jst.enterprise_ui.feature:3.22.0.v202103200058"/>
 		<item value="org.eclipse.justj.openjdk.hotspot.jre.full:16.0.1.v20210528-1205"/>
 		<item value="org.eclipse.m2e.feature:1.18.0.20210603-1206"/>
 		<item value="org.eclipse.m2e.logback.feature:1.17.1.20210603-1006"/>
@@ -41,5 +42,13 @@
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.5.202002191804"/>
 	</list>
 	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="335"/>
+		<item key="DIALOG_Y_ORIGIN" value="177"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
 	</section>
 </section>

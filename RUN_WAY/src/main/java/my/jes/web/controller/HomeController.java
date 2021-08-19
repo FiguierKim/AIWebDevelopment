@@ -96,7 +96,8 @@ public class HomeController {
 			@RequestParam(value = "age", required = false) int age,
 			@RequestParam(value = "weight", required = false) float weight,
 			@RequestParam(value = "height", required = false) float height,
-			@RequestParam(value = "gender", required = false) String gender, HttpServletRequest request,
+			@RequestParam(value = "gender", required = false) String gender, 
+			HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 
 		MemberVO m = new MemberVO(id, pw, name, email, age, weight, height, gender);
@@ -106,7 +107,7 @@ public class HomeController {
 			memberService.memberInsert(m);
 			return name + "님 회원가입 되셨습니다.";
 		} catch (Exception e) {
-			return e.getMessage();
+			return "오류가 발생하였습니다. 잠시 후 다시 시도해주세요.";
 		}
 
 	}
