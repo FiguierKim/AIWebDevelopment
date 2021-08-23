@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="my.jes.web.dao.ContactDao">
+	
+	<insert id="insertContact" parameterType="my.jes.web.vo.ContactVo">
+		INSERT INTO contact_db(name, email, comment) 
+		VALUES(#{name}, #{email}, #{comment})
+	</insert>
+	
+	
+
+</mapper>  
+  

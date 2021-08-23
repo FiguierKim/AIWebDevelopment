@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../js/my.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+	  
+/* <!------------- RECORD CSS -------------------------------> */
+
+.container1 {
+	box-sizing: border-box;
+	position: relative;
+	text-align: center;
+	border-radius: 3px;
+	display: inline-block;
+	margin: 10px;
+	padding: 14px;
+	position: relative;
+}
+
+.container2 {
+	position: relative;
+	min-width: 600px;
+}
+
+#record {
+	width: 95%;
+	height: 100%;
+	border: 1px solid #003458;
+	display: relative;
+	padding: 10px;
+	margin: 20px 20px;
+}
+
+.name1 {
+	position: sticky;
+}
+
+.left1 {
+	border: 1px solid #d7d7d7;
+	background-color: #d7d7d7;
+	height: 44%;
+	margin: 20px;
+}
+
+.right1{
+	border: 1px solid #d7d7d7;
+	background-color: #d7d7d7;
+	height: 60%;
+	width: 97%;
+	margin: 10px;
+}
+.right2{
+	border: 1px solid #d7d7d7;
+	background-color: #d7d7d7;
+	height: 23%;
+	width: 97%;
+	margin: 10px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#left1 {
+	width: 49%;
+	float: left;
+	box-sizing: border-box;
+	background: #c0c0c0;
+	border: 2px;
+	height: 90%;
+	clear: left;
+	padding: 10px;
+	min-width:250px; 
+}
+
+#right1 {
+	width: 49%;
+	float: right;
+	box-sizing: border-box;
+	background: #c0c0c0;
+	border: 2px;
+	height: 90%;
+	clear: right;
+	padding: 10px;
+	min-width:250px;
+}
+	  
+/* <!--  ----------- RECORD CSS ----------------------------- --> */
+
+  </style>
+</head>
+
+<body>
+	<div id="record" class="container">
+		<h3 class="text-center">RECORD</h3>
+		<div id="left1" class="text-center">
+			<div class="left1 tab-content">
+				1월
+				<div class="tab-pane fade" id="record1">
+					<table id="table1" class="table table-striped">
+						<thead>
+							<th>DATE</th>
+							<th>MEMO</th>
+							<th>상세보기</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;">1월 1일</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;">1월 3일</a></li>
+									</ul>
+								</td>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;">마산공원 반바퀴
+												달리기</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;">공성오름 B코스
+												걷기</a></li>
+									</ul>
+								</td>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;"
+											class="nav-link active" data-toggle="tab" href="#t1d1">상세보기</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;"
+											class="nav-link" data-toggle="tab" href="#t1d2">상세보기</a></li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="record2">
+					<table id="table1" class="table table-striped">
+						<thead>
+							<th>DATE</th>
+							<th>MEMO</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;">1월 1일</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;">1월 3일</a></li>
+									</ul>
+								</td>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;">마산공원 반바퀴
+												달리기</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;">공성오름 B코스
+												걷기</a></li>
+									</ul>
+								</td>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;"
+											class="nav-link active" data-toggle="tab" href="#t1d1">상세보기</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;"
+											class="nav-link" data-toggle="tab" href="#t1d2">상세보기</a></li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="record3">
+					<table id="table1" class="table table-striped">
+						<thead>
+							<th>DATE</th>
+							<th>MEMO</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;">1월 1일</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;">1월 3일</a></li>
+									</ul>
+								</td>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;">마산공원 반바퀴
+												달리기</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;">공성오름 B코스
+												걷기</a></li>
+									</ul>
+								</td>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;"
+											class="nav-link active" data-toggle="tab" href="#t1d1">상세보기</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;"
+											class="nav-link" data-toggle="tab" href="#t1d2">상세보기</a></li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="record4">
+					<table id="table1" class="table table-striped">
+						<thead>
+							<th>DATE</th>
+							<th>MEMO</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;">1월 1일</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;">1월 3일</a></li>
+									</ul>
+								</td>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;">마산공원 반바퀴
+												달리기</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;">공성오름 B코스
+												걷기</a></li>
+									</ul>
+								</td>
+								<td rowspan="2">
+									<ul class="nav nav-pills">
+										<li class="nav-item"><a style="padding: 0;"
+											class="nav-link active" data-toggle="tab" href="#t1d1">상세보기</a></li>
+										<br>
+										<br>
+										<li class="nav-item"><a style="padding: 0;"
+											class="nav-link" data-toggle="tab" href="#t1d2">상세보기</a></li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="text-center">
+					<ul class="pagination nav nav-pills">
+						<!-- <li class="page-item"><a class="page-link" href="#">1</a></li> -->
+						<li class="nav-item"><a class="nav-link" data-toggle="tab"
+							href="#record1">1</a></li>
+						<li class="nav-item"><a class="nav-link" data-toggle="tab"
+							href="#record2">2</a></li>
+						<li class="nav-item"><a class="nav-link" data-toggle="tab"
+							href="#record3">3</a></li>
+						<li class="nav-item"><a class="nav-link" data-toggle="tab"
+							href="#record4">4</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="left1">2월</div>
+		</div>
+		<div id="right1" class="text-center tab-content">
+			<div class="tab-pane fade show active" id="t1d1">
+				<div class="right1">
+					<img
+						src="https://support.apple.com/library/content/dam/edam/applecare/images/ko_KR/applewatch/ios14-iphone12-pro-activity-summary-workouts-run-route.jpg"
+						class="rounded mx-auto d-block" alt="map" height="600px"
+						style='margin: 5px 3px;'>
+				</div>
+				<div>
+					<button class="btn pull-center" type="submit"
+						style='width: 63%; height: 40px;'>구간별 상세정보 보기</button>
+					<button class="btn pull-center" type="submit"
+						style='width: 33%; height: 40px;'>공유하기</button>
+				</div>
+				<div class="right2">
+					<h2>평균속력 : 7</h2>
+					<h2>운동시간 : 55m</h2>
+					<h2>칼로리 : 600</h2>
+				</div>
+
+			</div>
+			<div class="tab-pane fade" id="t1d2">
+				<div class="right1">
+					<img
+						src="https://appassets.mvtdev.com/map/91/l/1802/280547/2372265.jpg"
+						class="rounded mx-auto d-block" alt="map" height="600px"
+						style='margin: 5px 3px;'>
+				</div>
+				<div>
+					<button class="btn pull-center" type="submit"
+						style='width: 63%; height: 40px;'>구간별 상세정보 보기</button>
+					<button class="btn pull-center" type="submit"
+						style='width: 33%; height: 40px;'>공유하기</button>
+				</div>
+				<div class="right2">
+					<h2>평균속력 : 6.8</h2>
+					<h2>운동시간 : 1h22m</h2>
+					<h2>칼로리 : 980</h2>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+	src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xxe5f789e074fa48fc99860ae9421175e1"></script>
+<script type="text/javascript">
+	var map;
+	var marker_s, marker_e, marker_p1, marker_p2;
+	var totalMarkerArr = [];
+	var drawInfoArr = [];
+	var resultdrawArr = [];
+
+	function initTmap() {
+		
+		var latitude = 37.4800384;
+		var longitude = 127.008768;
+		
+
+		
+		// 1. 지도 띄우기
+		map = new Tmapv2.Map("map_div", {
+			center : new Tmapv2.LatLng(latitude, longitude),
+			width : "100%",
+			height : "400px",
+			zoom : 15,
+			zoomControl : true,
+			scrollwheel : true
+		});
+
+		// 2. 시작, 도착 심볼찍기
+		// 시작
+		marker_a = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(latitude, longitude),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_b = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.4800384, 127.00889357),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_c = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.48010118, 127.00887675),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_d = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.48014715, 127.00883078),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_e = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.48016397, 127.008768),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_f = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.48014714593047, 127.00870522),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_g = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(latitude, longitude),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_h = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.48010118449223, 127.00865925),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		
+		marker_i = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.4800384, 127.00864243),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_j = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.47997561550777, 127.00865925),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_k = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.48010118449223, 127.00865925),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_l = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.47992965406953, 127.00870522),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_m = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.47991283, 127.008768),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_n = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.47992965406953, 127.00883078),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		marker_o = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(37.47997561550777, 127.00887675),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+
+	}
+</script>
+</head>
+<body onload="initTmap();">
+	
+		<!-- 190430 기존 지도를 모두 이미지 처리 위해 주석 처리 S -->
+		<div id="map_wrap" class="map_wrap3">
+			<div id="map_div"></div>
+		</div>
+		<div class="map_act_btn_wrap clear_box"></div>
+		<p id="result"></p>
+		<br />
+</body>
+</html>

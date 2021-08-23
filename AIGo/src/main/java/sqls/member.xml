@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="my.jes.web.dao.MemberDao">
+
+	<select id="allMember" resultType="my.jes.web.vo.MemberVo">
+		SELECT id, name, email
+		FROM user_db
+	</select>
+
+	<select id="login" resultType="my.jes.web.vo.MemberVo"
+		parameterType="my.jes.web.vo.MemberVo">
+		SELECT *
+		FROM user_db
+		WHERE id=#{id} and pw=#{pw}
+	</select>
+
+	<insert id="memberInsert" parameterType="my.jes.web.vo.MemberVo">
+		INSERT INTO user_db(id, pw, name, email, age, weight, height, gender) 
+		VALUES(#{id},#{pw},#{name}, #{email}, #{age}, #{weight}, #{height}, #{gender})
+	</insert>
+	
+	<select id="getCal" resultType="my.jes.web.vo.MemberVo" parameterType="String">
+		SELECT id, name, age, gender, height, weight, email
+		FROM user_db 
+		WHERE id=#{id} 
+	</select>
+	
+	<select id="checkId" resultType="int">
+		select COUNT(id)
+		FROM user_db 
+		WHERE id=#{id};	
+	</select>
+	
+</mapper>  
+  

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="my.jes.web.dao.RecordDAO">
+	
+	<insert id="insertRecord" parameterType="my.jes.web.vo.RecordVO">
+		<![CDATA[
+			insert into record_db(id, route, calorie, distance, memo, rundate) 
+			values(#{id},#{route}, #{calorie}, #{distance}, #{date}, #{date})
+		]]>
+	</insert>
+	
+	<select id="selectRecord" parameterType= "String" resultType="my.jes.web.vo.RecordVO">
+		<![CDATA[
+			select * from record_db where Rid=#{R_id}
+		]]>
+		
+	</select>
+
+</mapper> 
