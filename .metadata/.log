@@ -11978,3 +11978,114 @@ Binding(ALT+SHIFT+D R,
 
 !ENTRY org.eclipse.ui 2 2 2021-08-23 09:39:05.293
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:21.327
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:21.331
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6fecd46f[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=552)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:21.335
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:21.372
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.528
+!MESSAGE Boot LS startup time from start to initialized: 2182ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.608
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.naMNFavFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.610
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.611
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.612
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.612
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.naMNFavF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.613
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.618
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.619
+!MESSAGE buffering callback sts4.classpath.naMNFavF AIGo false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.620
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.622
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.623
+!MESSAGE buffering callback sts4.classpath.naMNFavF AIGo2 false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.623
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.624
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.625
+!MESSAGE buffering callback sts4.classpath.naMNFavF RUN_WAY false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.625
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.627
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.628
+!MESSAGE buffering callback sts4.classpath.naMNFavF runway false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.628
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.633
+!MESSAGE classpath=75 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.634
+!MESSAGE buffering callback sts4.classpath.naMNFavF test false 75
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:23.634
+!MESSAGE executing callback sts4.classpath.naMNFavF 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:42:24.176
+!MESSAGE executing callback sts4.classpath.naMNFavF SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-23 09:42:35.928
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:42:35.930
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:42:35.930
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:42:35.930
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:42:35.931
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:42:36.801
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:42:36.804
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:42:36.804
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:42:36.804
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:42:36.804
+!MESSAGE Has main method computation for project 'test'

@@ -15,7 +15,7 @@ public class TMapRequestor {
 			URL url=new URL(urlString);
 			con=(HttpURLConnection) url.openConnection();
 			con.setRequestMethod("POST");	
-			con.setRequestProperty("appKey", "l7xxde99a3c214034c1d978418bcf1fab496");
+			con.setRequestProperty("appKey", "");
 		
 			br=new BufferedReader(new InputStreamReader(con.getInputStream()));
 			String oneLine,sum="";
@@ -45,7 +45,7 @@ public class TMapRequestor {
 			URL url=new URL(urlString);
 			con=(HttpURLConnection) url.openConnection();
 			con.setRequestMethod("GET");	
-			con.setRequestProperty("appKey", "l7xxde99a3c214034c1d978418bcf1fab496");
+			con.setRequestProperty("appKey", "");
 		
 			br=new BufferedReader(new InputStreamReader(con.getInputStream()));
 			String oneLine,sum="";
