@@ -12089,3 +12089,324 @@ Binding(ALT+SHIFT+D R,
 
 !ENTRY Activator 1 0 2021-08-23 09:42:36.804
 !MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:10.091
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:10.095
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:10.095
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:10.096
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:10.096
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:11.488
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:11.492
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:11.493
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:11.493
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:11.493
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY org.eclipse.jface 2 0 2021-08-23 09:44:13.659
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-23 09:44:13.659
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64ce4b11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a0f9dc4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-08-23 09:44:23.758
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:23.760
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:23.760
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:23.760
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:23.761
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:26.441
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:26.443
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:26.443
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:26.444
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:26.444
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:44:26.488
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:44:26.497
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:44:26.499
+!MESSAGE buffering callback sts4.classpath.naMNFavF AIGo2 false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:44:26.501
+!MESSAGE executing callback sts4.classpath.naMNFavF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:44:26.584
+!MESSAGE executing callback sts4.classpath.naMNFavF SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-23 09:44:28.184
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:28.189
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:28.189
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:28.189
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:44:28.305
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:10.812
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:10.814
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:10.814
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:10.814
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:10.814
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:14.231
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:14.232
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:14.232
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:14.233
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:14.233
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:45:14.256
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:45:14.273
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:45:14.276
+!MESSAGE buffering callback sts4.classpath.naMNFavF AIGo2 false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:45:14.277
+!MESSAGE executing callback sts4.classpath.naMNFavF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 09:45:14.333
+!MESSAGE executing callback sts4.classpath.naMNFavF SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-23 09:45:15.602
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:15.611
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:15.617
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:15.624
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:45:15.686
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:48:43.377
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:48:43.413
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:48:43.414
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:48:43.414
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:48:43.414
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.237
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.243
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.243
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.244
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.244
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.980
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.982
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.985
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.985
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:15.986
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:57.431
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:57.437
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:57.437
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:57.437
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:57.437
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:58.412
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:58.412
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:58.412
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:58.413
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:49:58.413
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:08.639
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:08.644
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:08.644
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:08.644
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:08.645
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:09.589
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:09.592
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:09.592
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:09.592
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:09.592
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:10.060
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:10.061
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:10.062
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:10.062
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:52:10.062
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:28.615
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:28.616
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:28.616
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:28.616
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:28.617
+!MESSAGE Has main method computation for project 'AIGo'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:29.532
+!MESSAGE Has main method computation for project 'runway'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:29.533
+!MESSAGE Has main method computation for project 'AIGo2'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:29.533
+!MESSAGE Has main method computation for project 'RUN_WAY'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:29.533
+!MESSAGE Has main method computation for project 'test'
+
+!ENTRY Activator 1 0 2021-08-23 09:53:29.533
+!MESSAGE Has main method computation for project 'AIGo'
